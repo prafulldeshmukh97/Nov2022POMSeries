@@ -30,7 +30,7 @@ public class AccountsPage {
 	{
 		//String title=driver.getTitle();
 		String title=eleUtil.waitForTitleIsAndFetch(AppConstants.DEFAULT_SHORT_TIMEOUT,AppConstants.ACCOUNT_PAGE_TITLE_VALUE );
-		System.out.println("Accounts page title is :" +title);
+		System.out.println("Accounts page title is: :" +title);
 		return title;
 	}
 	
